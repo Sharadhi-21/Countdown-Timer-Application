@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Countdown Timer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="stopwatch.png" type="image/x-icon">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Countdown Timer</h1>
+
+        <div class="input-section">
+            <input id="date" type="date">
+            <input id="time" type="time">
+        </div>
+
+        <div class="buttons">
+            <button id="start" class="startBtn">Start</button>
+            <button id="stop" class="stopBtn">Stop</button>
+            <button id="reset" class="resetBtn">Reset</button>
+        </div>
+
+        <div class="countdown">
+            <div>
+                <p class="result-title">Days</p>
+                <div class="data" id="countdown-days">00</div>
+            </div>
+            <div>
+                <p class="result-title">Hours</p>
+                <div class="data" id="countdown-hours">00</div>
+            </div>
+            <div>
+                <p class="result-title">Minutes</p>
+                <div class="data" id="countdown-minutes">00</div>
+            </div>
+            <div>
+                <p class="result-title">Seconds</p>
+                <div class="data" id="countdown-seconds">00</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
